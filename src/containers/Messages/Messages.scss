@@ -1,0 +1,101 @@
+@import "../../assets/scss/vataxia/variables";
+
+.Messages {
+
+	h1 {
+		margin-bottom: 20px;
+		padding-bottom: 9px;
+		border-bottom: 1px solid #eee;
+	}
+
+	.message-rows {
+		margin-top: 10px;
+
+		a.message-row {
+			border-bottom: 1px solid #e4e4e4;
+			color: #292b2c;
+			padding: 4px 12px;
+			text-decoration: none;
+
+			&:hover {
+				background-color: rgba(0, 0, 0, 0.01);
+			}
+
+			.date {
+				color: #999;
+			}
+
+			.form-check {
+				margin: 0 10px 0 0;
+
+				input:hover {
+					cursor: default;
+				}
+
+			}
+
+			.subject {
+				color: #444;
+			}
+
+			.user {
+				font-weight: bold;
+				margin-right: 24px;
+			}
+
+		}
+
+	}
+
+	.sidebar {
+		border-right: 1px solid #eee;
+		bottom: 0;
+		left: 0;
+		overflow-x: hidden;
+		overflow-y: auto;
+		padding: 20px;
+		position: fixed;
+		top: $navbar-height;
+		z-index: 1000;
+	}
+
+	.sidebar {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.sidebar .nav {
+		margin-bottom: 20px;
+	}
+
+	.sidebar .nav-item {
+		width: 100%;
+	}
+
+	.sidebar .nav-item + .nav-item {
+		margin-left: 0;
+	}
+
+	.sidebar .nav-link {
+		border-radius: 0;
+	}
+
+	.placeholders {
+		padding-bottom: 3rem;
+	}
+
+	.placeholder img {
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	}
+
+	.toolbar {
+		padding: 0 12px;
+
+		.btn {
+			font-size: 11px;
+		}
+
+	}
+
+}

@@ -1,0 +1,64 @@
+.PostDetail {
+
+	.card {
+		margin-bottom: 10px;
+	}
+
+	.reply-section {
+
+		.card-block {
+			padding-bottom: 2px;
+
+			.reply {
+				line-height: 16px;
+				margin-bottom: 12px;
+
+				img {
+					margin-right: 6px;
+					width: 32px;
+				}
+
+				.content {
+
+				}
+
+				.date {
+					color: #ababab;
+					font-size: 10px;
+				}
+
+				a.user {
+					color: #3498db;
+					font-size: 11px;
+					font-weight: bold;
+				}
+
+			}
+
+		}
+
+	}
+
+	.post-overview {
+
+		.card-block {
+			margin: 2px 0;
+			padding: 0;
+
+			.PostListItem {
+				padding: 0 6px;
+			}
+
+			.image-container {
+				padding: 4px 14px 12px;
+			}
+
+			.post-body {
+				padding: 2px 14px 4px;
+			}
+
+		}
+
+	}
+
+}

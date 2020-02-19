@@ -1,0 +1,36 @@
+.Login {
+	margin-top: 30px;
+
+	.card {
+		margin: 0 auto;
+		max-width: 330px;
+
+		.card-block {
+
+			.heading {
+				font-size: 20px;
+				font-weight: 300;
+				margin: 0 0 14px;
+				text-align: center;
+			}
+
+			.create-account-container {
+				margin-top: 10px;
+				text-align: center;
+
+				a.create-account {
+					color: #95a5a6;
+
+					&:hover {
+						cursor: pointer;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

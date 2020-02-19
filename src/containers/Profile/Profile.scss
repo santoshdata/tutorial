@@ -1,0 +1,47 @@
+.Profile {
+
+	.action-buttons {
+		margin-bottom: 10px;
+	}
+
+	.edit-profile-image {
+		color: #999;
+		font-size: 11px;
+		padding: 2px;
+		text-align: center;
+
+		&:hover {
+			background: rgba(0, 0 , 0, 0.35);
+			color: white;
+			cursor: pointer;
+		}
+
+	}
+
+	.list-group {
+		margin-bottom: 10px;
+
+		.list-group-item {
+			border-radius: 0;
+			padding: 4px 12px;
+
+			&.active {
+				color: white;
+
+				&:hover {
+					color: white;
+				}
+
+			}
+
+		}
+
+	}
+
+	.user-name {
+		font-size: 20px;
+		font-weight: 300;
+		margin: 4px 0 10px;
+	}
+
+}
